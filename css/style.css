@@ -31,11 +31,11 @@ main {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 2em;
 }
 
 section {
     background-color: lightcoral;
+    padding-bottom: 2rem;
 }
 
 footer {
@@ -44,6 +44,10 @@ footer {
 }
 
 /*-----Tags-----*/
+h2 {
+  font-size: 2rem;
+}
+
 li.menu {
     display: inline;
 }
@@ -73,5 +77,19 @@ li.menu {
 /*--------------------*/
 
 .imglogo {
-    width: 4em;
+    width: 3rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.img-lab {
+  width: 100%;
+}
+
+.img-explicacao {
+  width: 25%;
 }
